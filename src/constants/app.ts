@@ -1,1 +1,1 @@
-export const APP_NAME = "slim" as const;
+export const APP_NAME = "tomoshibi" as const;
