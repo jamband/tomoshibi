@@ -4,6 +4,6 @@ import styles from "./styles";
 
 export const Component: FC = () => (
   <footer class={styles.container}>
-    {` © ${new Date().getFullYear()} ${APP_NAME}`}
+    {`© ${new Date().getFullYear()} ${APP_NAME}`}
   </footer>
 );
