@@ -16,7 +16,7 @@ export const Layout = jsxRenderer((props) => {
         <meta name="viewport" content="width=device-width" />
         <meta name="description" content={APP_DESCRIPTION} />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="/styles/reset.css" />
+        <link rel="stylesheet" href="/styles/reset-1-11-2.css" />
         <Style>{appStyles}</Style>
         <title>{title}</title>
       </head>
