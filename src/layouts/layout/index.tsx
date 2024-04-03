@@ -1,4 +1,4 @@
-import { APP_NAME } from "@/constants/app";
+import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
 import appStyles from "@/styles/app";
 import { Style } from "hono/css";
 import { jsxRenderer } from "hono/jsx-renderer";
@@ -14,6 +14,8 @@ export const Layout = jsxRenderer((props) => {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
+        <meta name="description" content={APP_DESCRIPTION} />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles/reset.css" />
         <Style>{appStyles}</Style>
         <title>{title}</title>
