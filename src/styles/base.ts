@@ -9,11 +9,15 @@ const baseStyles = css`
     }
 
     body {
-      background: #fff;
-      color: #555;
-      font-family: system-ui, Arial, sans-serif;
-      font-size: 1.0625rem;
+      background: rgb(var(--white));
+      color: rgb(var(--gray));
+      display: grid;
+      font-family: system-ui, sans-serif;
+      font-size: 1rem;
+      grid-template-columns: 100%;
+      grid-template-rows: auto 1fr auto;
       line-height: inherit;
+      min-height: 100vh;
     }
 
     h1 {
@@ -22,7 +26,7 @@ const baseStyles = css`
     }
 
     a {
-      color: var(--blue);
+      color: rgb(var(--blue));
     }
   }
 `;
