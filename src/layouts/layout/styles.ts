@@ -4,7 +4,7 @@ const container = css`
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+  min-block-size: 100svb;
 `;
 
 const main = css`

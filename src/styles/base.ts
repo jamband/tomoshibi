@@ -14,7 +14,6 @@ const baseStyles = css`
       font-family: system-ui, sans-serif;
       font-size: 1rem;
       line-height: inherit;
-      min-block-size: 100svb;
     }
 
     h1 {
