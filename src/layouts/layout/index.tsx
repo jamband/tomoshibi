@@ -20,7 +20,7 @@ export const Layout = jsxRenderer((props) => {
         <Style>{appStyles}</Style>
         <title>{title}</title>
       </head>
-      <body>
+      <body class={styles.container}>
         <Header />
         <main class={styles.main}>{props.children}</main>
         <Footer />

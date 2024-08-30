@@ -1,5 +1,12 @@
 import { css } from "hono/css";
 
+const container = css`
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+`;
+
 const main = css`
   margin: 1rem auto;
   padding: 0 1rem;
@@ -12,5 +19,6 @@ const main = css`
 `;
 
 export default {
+  container,
   main,
 };
