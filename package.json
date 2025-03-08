@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "@biomejs/biome": "1.9.4",
-    "@hono/vite-dev-server": "0.18.1",
+    "@hono/vite-dev-server": "0.19.0",
     "@hono/vite-ssg": "0.1.1",
-    "@types/node": "20.17.17",
-    "hono": "4.7.0",
-    "typescript": "5.7.3",
-    "vite": "6.1.0"
+    "@types/node": "22.13.9",
+    "hono": "4.7.4",
+    "typescript": "5.8.2",
+    "vite": "6.2.1"
   }
 }
