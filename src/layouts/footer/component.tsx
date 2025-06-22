@@ -1,5 +1,5 @@
-import { APP_NAME } from "@/constants/app";
 import type { FC } from "hono/jsx";
+import { APP_NAME } from "@/constants/app";
 import styles from "./styles";
 
 export const Component: FC = () => (

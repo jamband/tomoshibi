@@ -1,7 +1,7 @@
-import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
-import appStyles from "@/styles/app";
 import { Style } from "hono/css";
 import { jsxRenderer } from "hono/jsx-renderer";
+import { APP_DESCRIPTION, APP_NAME } from "@/constants/app";
+import appStyles from "@/styles/app";
 import { Footer } from "../footer";
 import { Header } from "../header";
 import styles from "./styles";
