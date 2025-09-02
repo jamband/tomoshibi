@@ -11,12 +11,12 @@
     "clean": "node scripts/clean.js"
   },
   "dependencies": {
-    "@biomejs/biome": "2.1.2",
-    "@hono/vite-dev-server": "0.20.0",
-    "@hono/vite-ssg": "0.1.2",
-    "@types/node": "22.16.5",
-    "hono": "4.8.5",
-    "typescript": "5.8.3",
-    "vite": "7.0.5"
+    "@biomejs/biome": "2.2.2",
+    "@hono/vite-dev-server": "0.20.1",
+    "@hono/vite-ssg": "0.2.0",
+    "@types/node": "22.18.0",
+    "hono": "4.9.5",
+    "typescript": "5.9.2",
+    "vite": "7.1.4"
   }
 }
