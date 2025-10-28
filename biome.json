@@ -3,9 +3,9 @@
   "files": {
     "includes": [
       "**",
-      "!dist",
-      "!public/styles/reset-*.css",
-      "!src/global.d.ts"
+      "!src/global.d.ts",
+      "!!dist",
+      "!!public/styles/reset-*.css"
     ]
   },
   "formatter": {
