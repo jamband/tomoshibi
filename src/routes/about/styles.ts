@@ -7,7 +7,7 @@ const container = css`
   height: 70vh;
   justify-content: center;
 
-  @media (min-width: 768px) {
+  @media (width >= 48rem) {
     font-size: 5rem;
     height: 82vh;
   }

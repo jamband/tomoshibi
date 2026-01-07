@@ -12,9 +12,9 @@ const main = css`
   padding: 0 1rem;
   width: 100%;
 
-  @media (min-width: 768px) {
+  @media (width >= 48rem) {
     padding: 0;
-    width: 768px;
+    width: 48rem;
   }
 `;
 

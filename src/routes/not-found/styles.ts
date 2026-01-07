@@ -8,7 +8,7 @@ const container = css`
   justify-content: center;
   text-align: center;
 
-  @media (min-width: 768px) {
+  @media (width >= 48rem) {
     font-size: 5rem;
     height: 82vh;
   }
