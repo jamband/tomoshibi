@@ -3,6 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "noEmit": true,
+    "strict": true,
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
     "isolatedModules": true,
