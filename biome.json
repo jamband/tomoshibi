@@ -5,6 +5,7 @@
       "**",
       "!src/global.d.ts",
       "!!dist",
+      "!!pnpm-lock.yaml",
       "!!public/styles/reset-*.css"
     ]
   },
